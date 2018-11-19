@@ -195,6 +195,11 @@ a{
     margin-top:19px;
     background: url(../img/seckill-head.jpg) no-repeat 50% 0;
 }
+.nav-fix{
+    position:fixed;
+    width: 1226px;
+    top:68px;
+}
 .seckill-nav ul{
     height: 68px;
     background:#414141;
@@ -202,6 +207,7 @@ a{
 .seckill-nav{
     margin:-68px 0 22px;
 }
+
 .seckill-nav li{
     display: block;
     float: left;
@@ -235,6 +241,10 @@ a{
 /* seckill goods */
 .seckill-goods ul{
     margin-right: -13px;
+    display: none;
+}
+.seckill-goods ul.active{
+    display: block;
 }
 .seckill-goods li{
     float: left;
